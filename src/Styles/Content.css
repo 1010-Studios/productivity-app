@@ -1,0 +1,4 @@
+.content-container {
+	grid-area: Body;
+	border: 2px solid blue;
+}

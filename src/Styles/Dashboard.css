@@ -1,0 +1,20 @@
+.dashboard-container {
+	grid-area: Dash;
+}
+
+.dashboard-buttons {
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	list-style: none;
+	border: 2px solid blue;
+}
+
+.dashboard-buttons li {
+	padding: 0.4rem;
+	margin: 0.5rem;
+}
+
+.dashboard-buttons li:last-child {
+	margin-right: 50px;
+}

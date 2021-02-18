@@ -1,0 +1,4 @@
+.sidebar-container {
+	grid-area: Sidebar;
+	border: 2px solid blue;
+}
