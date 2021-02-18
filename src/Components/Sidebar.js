@@ -5,6 +5,7 @@ const Sidebar = () => {
 	return (
 		<div className='sidebar-container'>
 			<p>Sidebar!</p>
+			<button>New Task</button>
 		</div>
 	);
 };

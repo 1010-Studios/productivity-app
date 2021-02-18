@@ -4,6 +4,7 @@ import WeatherCard from './Components/WeatherCard';
 import Dashboard from './Components/Dashboard';
 import Sidebar from './Components/Sidebar';
 import Content from './Components/Content';
+import Todo from './Components/Todo';
 
 function App() {
 	return (
@@ -13,6 +14,7 @@ function App() {
 			<Dashboard />
 			<Sidebar />
 			<Content />
+			<Todo />
 		</div>
 	);
 }

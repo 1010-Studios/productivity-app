@@ -32,7 +32,7 @@ class WeatherCard extends React.Component {
 
 	componentDidMount() {
 		this.setWeather();
-		this.timerID = setInterval(() => this.tick(), 300000);
+		this.timerID = setInterval(() => this.tick(), 600000);
 	}
 
 	componentWillUnmount() {
