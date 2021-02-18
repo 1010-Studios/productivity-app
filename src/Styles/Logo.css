@@ -1,0 +1,8 @@
+.testDiv {
+	grid-area: Logo;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: beige;
+	border: 2px solid black;
+}
