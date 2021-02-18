@@ -17,7 +17,7 @@ class WeatherCard extends React.Component {
 		};
 	}
 
-	componentDidMount() {
+	setWeather() {
 		getWeather().then((data) => {
 			this.setState({
 				location: data.location,
@@ -28,6 +28,19 @@ class WeatherCard extends React.Component {
 				lastUpdate: data.lastUpdate,
 			});
 		});
+	}
+
+	componentDidMount() {
+		this.setWeather();
+		this.timerID = setInterval(() => this.tick(), 300000);
+	}
+
+	componentWillUnmount() {
+		clearInterval(this.timerID);
+	}
+
+	tick() {
+		this.setWeather();
 	}
 
 	render() {
